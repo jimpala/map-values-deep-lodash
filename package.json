@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Map/rename object values recursively with Lodash as the only dependency.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch"
   },
   "keywords": [
     "lodash",
@@ -16,7 +16,9 @@
     "recursive",
     "mapvalues"
   ],
-  "files": ["lib/index.js"],
+  "files": [
+    "lib/index.js"
+  ],
   "main": "lib/index.js",
   "author": "James Pyne",
   "license": "MIT",
@@ -24,6 +26,9 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
     "jest": "^24.7.1"
   }
 }
