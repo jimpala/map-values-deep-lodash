@@ -1,5 +1,7 @@
 # map-keys-deep-lodash
+[![Build Status](https://travis-ci.com/jpyne17/map-values-deep-lodash.svg?branch=master)](https://travis-ci.com/jpyne17/map-values-deep-lodash)
 > Map JS object values recursively.
+
 
 ## Install
 
