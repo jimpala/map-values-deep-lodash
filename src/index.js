@@ -1,3 +1,9 @@
-const { mapValues } = require("lodash");
+const { mapValues, isObject } = require("lodash");
 
-module.exports = obj => {};
+const mapValuesDeep = (obj, iteree) => (
+  isObject(obj)
+    ? mapValues(obj, v => mapValuesDeep(v, iteree))
+    : iteree(obj)
+);
+
+module.exports = mapValuesDeep;
