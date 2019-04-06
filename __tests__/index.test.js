@@ -1,4 +1,4 @@
-const mapValuesDeep = require("../src");
+const mapValuesDeep = require("../lib");
 
 describe("mapValuesDeepLodash", () => {
   it("maps deep values with a plain JS object", () => {
