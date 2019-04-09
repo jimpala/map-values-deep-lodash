@@ -14,8 +14,10 @@ $ npm i map-values-deep-lodash --save
 ## Usage
 
 ```js
-const mapValuesDeep = require("map-keys-deep-lodash");
+const mapValuesDeep = require("map-values-deep-lodash");
 
+mapValuesDeep({a: 1, b: 2, c: {d: 3, e: 4}}, value => (2 * value));
+// -> {a: 2, b: 4, c: {d: 6, e: 8}}
 ```
 
 ## Dependencies
