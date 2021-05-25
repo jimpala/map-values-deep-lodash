@@ -1,6 +1,6 @@
 {
   "name": "map-values-deep-lodash",
-  "version": "1.0.2",
+  "version": "2.0.2",
   "description": "Map/rename object values recursively with Lodash as the only dependency.",
   "homepage": "https://github.com/jpyne17/map-values-deep-lodash",
   "scripts": {
